@@ -7,27 +7,31 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="16dp"
-    android:background="@color/teal_700"
-    tools:context=".MainActivity">
+    android:background="@drawable/c1"
+    tools:context=".MainActivity"
 
+    >
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/btnAdicionar"
-        android:text="Adicionar Itens"/>
+        android:text="Adicionar Itens" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/txtTotal"
         android:padding="10dp"
-        android:text="Total: R$ 0,00"
+        android:id="@+id/txtTotal"
+        android:text="TOTAL: 0.00"
         android:textSize="24sp"
         android:textStyle="bold"/>
+
+
 
     <ListView
         android:id="@+id/listViewProdutos"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
+
 
 </LinearLayout>
